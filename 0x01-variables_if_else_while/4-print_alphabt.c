@@ -6,7 +6,7 @@
  * skips 'e' and 'q'
  * retun: always 0 (success)
 */
-int main(void)
+int main()
 {
 char letter = 'a';
 
