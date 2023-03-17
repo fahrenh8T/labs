@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main - Entry point
  * program starts with the first alphabet and loops from a-z
  * skips 'e' and 'q'
  * retun: always 0 (success)
