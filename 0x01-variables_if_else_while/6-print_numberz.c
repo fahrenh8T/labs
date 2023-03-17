@@ -7,12 +7,11 @@
 */
 int main(void)
 {
-int num = 0;
+int num = 48;
 
-while (num <= 9)
+while (num <= 57)
 {
-putchar(num / 10 + '0');
-putchar(num % 10 + '0');
+putchar(num);
 num++;
 }
 
