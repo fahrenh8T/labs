@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 
 /**
  * main - Entry point
@@ -16,7 +17,7 @@ int main(void)
 
 	last_digit = abs(n) % 10;
 
-	printf("Last digit of %d is %d", n, last_digit);
+	printf("Last digit of %d is %d\n", n, last_digit);
 
 	if (last_digit > 5)
 	{
