@@ -2,11 +2,10 @@
 
 /**
  * main - Entry point
- * program starts with the first alphabet and loops from a-z
- * skips 'e' and 'q'
+ * program starts with the first alphabet and loops from a-z except 'e' and 'q'
  * retun: always 0 (success)
 */
-int main()
+int main(void)
 {
 char letter = 'a';
 
