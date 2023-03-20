@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * program starts with the first alphabet and loops from a-z except 'e' and 'q'
- * retun: always 0 (success)
+* main - Entry point
+* program all the alphabets except 'e' and 'q'
+* Retun: Always 0 (success)
 */
 int main(void)
 {
