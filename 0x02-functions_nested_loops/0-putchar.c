@@ -1,10 +1,26 @@
 #include <stdio.h>
 /**
  * main - entry point
- * program that prints _putchar, followed by a new line.
- * Return putchar
+ * 
+ * Return: Always 0.
 */
-int _putchar(char c)
+
+int main(void)
 {
-return putchar (c);
+    print_putchar();
+return (0);
+}
+
+void print_putchar(void)
+{
+	char ch[] = "_putchar\n";
+	int i = 0;
+
+	while (ch[i] != '\0')
+	{
+		_putchar(ch[i]);
+		i++;
+	}
+
+return (0);
 }
