@@ -7,20 +7,15 @@
 
 int main(void)
 {
-    putchar();
-return (0);
-}
-
-void putchar(void)
-{
-	char ch[] = "_putchar\n";
+	char ch[] = "_putchar";
 	int i = 0;
 
 	while (ch[i] != '\0')
 	{
-		putchar(ch[i]);
+		_putchar(ch[i]);
 		i++;
 	}
+	_putchar('\n');
 
 return (0);
 }
