@@ -25,4 +25,5 @@ _putchar(d + 48);
 }
 }
 }
+_putchar('\n');
 }
