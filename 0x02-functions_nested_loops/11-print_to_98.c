@@ -18,9 +18,7 @@ _putchar(i % 10 + 48);
 _putchar(44);
 _putchar(32);
 }
-else
-{
-for (int i = n; i > 98; i--)
+else (int i = n; i > 98; i--)
 {
 _putchar(i / 10 + 48);
 _putchar(i % 10 + 48);
