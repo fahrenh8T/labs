@@ -3,7 +3,6 @@
  * main - program prints the "Fizz-Buzz test"
  * Return: 0
 */
-
 int main(void)
 {
 	int i;
