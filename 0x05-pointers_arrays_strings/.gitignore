@@ -19,3 +19,5 @@ _putchar.c
 7-puts_half
 9-main.c
 9-strcpy
+100-main.c
+100-atoi
