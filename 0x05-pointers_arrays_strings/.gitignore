@@ -4,3 +4,6 @@
 1-swap
 8-main.c
 8-print_array
+_putchar.c
+2-main.c
+2-strlen
