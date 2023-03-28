@@ -17,3 +17,5 @@ _putchar.c
 6-puts2
 7-main.c
 7-puts_half
+9-main.c
+9-strcpy
