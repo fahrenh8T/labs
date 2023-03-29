@@ -1,8 +1,5 @@
 #include "main.h"
 
-#define PASSWORD_LENGTH 100
-#define CHECKSUM 2772
-
 /**
  * main - generates random valid passwords
  * Return: 0
@@ -10,18 +7,18 @@
 
 int main(void)
 {
-	char passwd[PASSWORD_LENGTH + 1];
-	const char charset[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+	int myrand;
+	int count;
+	int total;
 
 	srand(time(NULL));
-
-	for (int i = 0; i < PASSWORD_LENGTH; i++)
+	for (count = 0, total = 2772; total > 122; count++)
 	{
-		passwd[i] = charset[rand() % (sizeof(charset) - 1)];
+		myrand = (rand() % 125) + 1;
+		printf("%c", myrand);
+		total -= myrand;
 	}
-	passwd[PASSWORD_LENGTH] = '\0';
-
-	printf("Generated Password: %s\n", passwd);
+	printf("%c", total);
 
 	return (0);
 }
