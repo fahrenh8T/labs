@@ -1,6 +1,8 @@
 #include "main.h"
 
-#define PASSWORD_LENGTH 7
+#define PASSWORD_LENGTH 100
+#define CHECKSUM 2772
+
 /**
  * main - generates random valid passwords
  * Return: 0
