@@ -36,7 +36,7 @@ char *cap_string(char *s)
 			default:
 			break;
 		}
-			
+		
 	}
 	return (s);
 }
