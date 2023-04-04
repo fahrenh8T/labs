@@ -4,7 +4,7 @@
  * @a: pointer to an integer array
  * @size: integer, size of matrix
  *
- * Return: 0 (success)
+ * Return: void
 */
 void print_diagsums(int *a, int size)
 {
