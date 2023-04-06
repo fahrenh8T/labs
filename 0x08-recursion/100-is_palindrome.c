@@ -9,6 +9,7 @@
 int is_palindrome_helper(char *s, int i)
 {
 	int lngth;
+
 	lngth = strlen(s);
 
 	if (*s == '\0')
@@ -19,7 +20,7 @@ int is_palindrome_helper(char *s, int i)
 	{
 		return (is_palindrome_helper(s + 1, i + 1));
 	}
-	else 
+	else
 	{
 		return (0);
 	}
