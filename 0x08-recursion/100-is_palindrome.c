@@ -15,9 +15,9 @@ int is_palindrome_helper(char *s, int i)
 	{
 		return (1);
 	}
-	else if (*s == s[lngth - y])
+	else if (*s == s[lngth - i])
 	{
-		return (is_palindrome_helper(s + 1, y + 1));
+		return (is_palindrome_helper(s + 1, i + 1));
 	}
 	else 
 	{
